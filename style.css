@@ -1,1 +1,35 @@
+.grid-container {
+display:grid
+grid-template-areas:
+'h h h h'
+'m m m a'
+'m m m t'
+'f f f f'
+}
 
+.header {
+ grid-area: h
+  background-color: yellow                       
+ }
+
+.main {
+grid-area: m  
+
+background-color: red
+
+ }  
+                         
+.aside {
+grid-area: a
+background-color: green
+}
+                         
+ .tool-bar {
+grid-area: t  
+background-color: blue
+ }                          
+ 
+.footer {
+ grid-area: f
+background-color: black
+ }                
