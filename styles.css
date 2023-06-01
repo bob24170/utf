@@ -7,29 +7,29 @@ grid-template-areas:
 'f f f f'
 }
 
-.header {
+header {
  grid-area: h
   background-color: yellow                       
  }
 
-.main {
+main {
 grid-area: m  
 
 background-color: red
 
  }  
                          
-.aside {
+aside {
 grid-area: a
 background-color: green
 }
                          
- .tool-bar {
+tool-bar {
 grid-area: t  
 background-color: blue
  }                          
  
-.footer {
+footer {
  grid-area: f
 background-color: black
  }                
