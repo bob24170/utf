@@ -3,14 +3,24 @@
   <head>
     <meta charset="utf_8">
 <style>
-.main {
+.grid-container {
 display:grid
 grid-template-areas:
-"topbar    topbar   topbar"
-"ads      content    sidebar"
-"footer   footer     footer"
+'h h h h'
+'m m m a'
+'m m m t'
+'f f f f'
 }
-                            </style>
+
+.header {
+ grid-area: h
+ }
+
+.main {
+grid-area: m  
+ }                        
+                         
+</style>
   </head>
   <body>
 <div class="main">
